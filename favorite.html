@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="favorite.css">
+    <title>Document</title>
+
+    <script>
+        function result(){
+            alert( "당신의 취향을 저격할 노래는!");
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1> 
+          FIND YOUR FINE MUSIC </h1>
+    </header>
+
+    <div class="question">
+    <div class="question_genre">
+        <p style="font-size:20px; font-weight: bold;">선호하는 장르가 무엇인가요?</p>
+        <form>
+            <select name="genre" >
+              <option value="none">장르</option>
+              <option value="none">국내/발라드</option>
+              <option value="none">댄스/일렉</option>
+              <option value="none">국내/알앤비</option>
+              <option value="none">힙합</option>
+              <option value="none">트로트</option>
+              <option value="none">인디</option>          
+              <option value="none">해외/팝</option>
+            </select>
+          </form>
+
+    </div>
+
+    <div class="question_vibe">
+        <p style="font-size:20px; font-weight: bold;">선호하는 분위기는 무엇인가요?</p>
+        <form>
+            <select name="vibe" >
+              <option value="none">분위기</option>
+              <option value="none">잔잔한</option>
+              <option value="none">위로하는</option>
+              <option value="none">감성적인</option>
+              <option value="none">달달한</option>
+              <option value="none">상쾌한</option>
+              <option value="none">우울한</option>          
+              <option value="none">기분전환</option>
+              <option value="none">트렌디한</option>
+              <option value="none">몽환적인</option>
+            </select>
+          </form>
+
+    </div>
+
+    <div>
+        <p style="font-size:20px; font-weight: bold;">좋아하는 아티스트를 입력해주세요</p>
+       <input type="text" value="아티스트명" onfocus="this.value=''; return true;">
+    </div>
+   
+    </div>
+
+    <div class="wrapper">
+        <input type="button" class="button" value="제출" onclick="result();"/>
+    </div>
+
+    <div class="home">
+        <a href="idea.html">HOME</a>
+    </div>
+
+</body>
+</html>
+

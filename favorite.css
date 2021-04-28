@@ -1,0 +1,31 @@
+header {
+    height: 100px;
+    background-image: url(bg.jpeg);
+    text-align : center;
+    color : rgb(243, 214, 214);
+    padding: 100px;
+}
+
+.question{
+    height: 400px;
+    text-align:center;
+}
+.question_genre{
+    padding-bottom: 20px;
+}
+
+.wrapper{
+    height: 50px;
+    display:block;
+    text-align:center;
+}
+.button {
+    width:50px;
+    position:absolute;
+    left:47.5%;
+
+}
+.home{
+    text-decoration: none;
+    text-align: center;
+}
